@@ -1,0 +1,36 @@
+export const homeObjectOne = {
+  id: "about",
+  lightBg: true,
+  lightTextDesc: true,
+  lightText: false,
+  topLine: "Want to study chess?",
+  headLine: "Learn to play chess like a pro!",
+  description:
+    "Courses designed by masters, International Masters and Grand Masters.Study openings, middle-games and endgames with utmost precision.",
+  buttonLabel: "View Courses",
+  // img: require('../Images/svg3.svg'),
+  animation: "https://assets8.lottiefiles.com/packages/lf20_2uvh7uv0.json",
+  imgStart: false,
+  alt: "Image",
+  primary: true,
+  darkText: true,
+  to: "courses",
+};
+export const homeObjectTwo = {
+  id: "discover",
+  lightBg: false,
+  lightTextDesc: true,
+  lightText: true,
+  topLine: "Bored from studying?",
+  headLine: "Excited about Chess world!?",
+  description:
+    "Get latest news and happenings of the chess world, follow your favourites, get up-to-date news with TheChessWebsite.",
+  buttonLabel: "Get News",
+  // img: require('../Images/svg3.svg'),
+  animation: "https://assets8.lottiefiles.com/packages/lf20_qmfs6c3i.json",
+  imgStart: true,
+  alt: "Image",
+  primary: false,
+  darkText: false,
+  to: "news",
+};
