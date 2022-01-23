@@ -1,5 +1,6 @@
 {
   "name": "thechesswebsite",
+  "homepage": "https://drigger91.github.io/TheChessWebsiteReact/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
