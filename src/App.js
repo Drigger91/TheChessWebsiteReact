@@ -10,7 +10,7 @@ import Bootcampbeginner from "./content-pages/beginnerBootcamp";
 import Bootcampinter from "./content-pages/interBootcamp";
 import Openings from "./content-pages/openings";
 import Accordian from "./components/Accordian";
-import SignIn from "./components/SignIn"
+import SignIn from "./components/SignIn";
 
 function App() {
   useEffect(() => {
@@ -19,11 +19,13 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exact path="/" element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/courses" element={<Courses />}></Route>
         <Route path="/news" element={<News />}></Route>
         <Route path="/beginner-bootcamp" element={<Bootcampbeginner />}></Route>
-        <Route path="/intermediate-bootcamp" element={<Bootcampinter />}
+        <Route
+          path="/intermediate-bootcamp"
+          element={<Bootcampinter />}
         ></Route>
         <Route path="/signin" element={<SignIn />}></Route>
         <Route path="/openings" element={<Openings />}></Route>
