@@ -66,7 +66,7 @@ const Services = () => {
                 <Cardul>
                   <Cardli>Unlimited Game review</Cardli>
                   <Cardli>Get insights of 10 games</Cardli>
-                  <Cardli>Get extra 15% off on courses</Cardli>
+                  <Cardli>Get extra <b>15%</b> off on courses</Cardli>
                   <Cardli>
                     <b>No Ads</b>
                   </Cardli>
