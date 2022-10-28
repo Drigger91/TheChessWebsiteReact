@@ -120,3 +120,12 @@
     width: 200px
   }
 }
+
+.signupLink{
+  color: rgb(153, 177, 255);
+  text-decoration: none;
+}
+
+.pass{
+  color: rgb(255, 75, 75);
+}

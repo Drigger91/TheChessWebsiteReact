@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import SignUp from "../SignUp";
 import {
   FormButton,
   FormInput,
@@ -9,6 +11,7 @@ import {
   FormWrap,
   Container,
   Icon,
+  SignUpMessage
 } from "./SignInElements";
 
 const SignIn = () => {
@@ -23,12 +26,14 @@ const SignIn = () => {
             <FormInput type="email" required />
             <FormLabel htmlFor="for">Password</FormLabel>
             <FormInput type="password" required />
-            <FormButton type="submit">Continue</FormButton>
+            <FormButton type="submit">Log In</FormButton>
+            <br/>
+            <SignUpMessage>Don't have an account , <Link className="signupLink" to="/signup" element={<SignUp/>}>SignUp here!</Link></SignUpMessage>
           </Form>
         </FormContent>
       </FormWrap>
     </Container>
   );
-};
+}
 
 export default SignIn;
