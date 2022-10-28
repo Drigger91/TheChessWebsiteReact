@@ -27,7 +27,7 @@ const Services = () => {
             <Card>
               <CardAnimation>
                 <lottie-player
-                  src="https://assets4.lottiefiles.com/packages/lf20_ZCjq5s.json"
+                  src="https://assets5.lottiefiles.com/packages/lf20_ZCjq5s.json"
                   background="transparent"
                   speed=".5"
                   loop

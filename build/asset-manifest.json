@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/TheChessWebsiteReact/static/css/main.96659679.css",
-    "main.js": "/TheChessWebsiteReact/static/js/main.b53fca40.js",
-    "static/js/787.cc2fe5be.chunk.js": "/TheChessWebsiteReact/static/js/787.cc2fe5be.chunk.js",
-    "static/media/video2.mp4": "/TheChessWebsiteReact/static/media/video2.295250f22ce0f6349c7d.mp4",
-    "static/media/Begin.png": "/TheChessWebsiteReact/static/media/Begin.5997847bef89c57bd952.png",
-    "static/media/Beginner.jpg": "/TheChessWebsiteReact/static/media/Beginner.528ff6c540d20b9607e9.jpg",
-    "static/media/openings.jpg": "/TheChessWebsiteReact/static/media/openings.97f285831aa337e5a075.jpg",
-    "static/media/Intermediate.jpg": "/TheChessWebsiteReact/static/media/Intermediate.91f4539e58a2e92b83e3.jpg",
-    "static/media/Trophy.png": "/TheChessWebsiteReact/static/media/Trophy.9ed97150caf1a4c5ca8b.png",
-    "static/media/Open.png": "/TheChessWebsiteReact/static/media/Open.26ba4632a3fceb848a49.png",
-    "static/media/Inter.png": "/TheChessWebsiteReact/static/media/Inter.ae979f5a57ee4abf0338.png",
-    "static/media/London.png": "/TheChessWebsiteReact/static/media/London.c8de95692105faac8e67.png",
-    "static/media/E4.png": "/TheChessWebsiteReact/static/media/E4.a0b1b63c0963b81fccf3.png",
-    "static/media/sicilian.png": "/TheChessWebsiteReact/static/media/sicilian.66d33552a4df04eaa653.png",
-    "static/media/Caro.png": "/TheChessWebsiteReact/static/media/Caro.94bf60cb81972f3abbff.png",
-    "static/media/svg3.svg": "/TheChessWebsiteReact/static/media/svg3.50b627ff2afd06ea8f3c1c04371ebe12.svg",
-    "index.html": "/TheChessWebsiteReact/index.html",
-    "main.96659679.css.map": "/TheChessWebsiteReact/static/css/main.96659679.css.map",
-    "main.b53fca40.js.map": "/TheChessWebsiteReact/static/js/main.b53fca40.js.map",
-    "787.cc2fe5be.chunk.js.map": "/TheChessWebsiteReact/static/js/787.cc2fe5be.chunk.js.map"
+    "main.css": "/static/css/main.96659679.css",
+    "main.js": "/static/js/main.fc44cbc9.js",
+    "static/js/787.cc2fe5be.chunk.js": "/static/js/787.cc2fe5be.chunk.js",
+    "static/media/video2.mp4": "/static/media/video2.295250f22ce0f6349c7d.mp4",
+    "static/media/Begin.png": "/static/media/Begin.5997847bef89c57bd952.png",
+    "static/media/Beginner.jpg": "/static/media/Beginner.528ff6c540d20b9607e9.jpg",
+    "static/media/openings.jpg": "/static/media/openings.97f285831aa337e5a075.jpg",
+    "static/media/Intermediate.jpg": "/static/media/Intermediate.91f4539e58a2e92b83e3.jpg",
+    "static/media/Trophy.png": "/static/media/Trophy.9ed97150caf1a4c5ca8b.png",
+    "static/media/Open.png": "/static/media/Open.26ba4632a3fceb848a49.png",
+    "static/media/Inter.png": "/static/media/Inter.ae979f5a57ee4abf0338.png",
+    "static/media/London.png": "/static/media/London.c8de95692105faac8e67.png",
+    "static/media/E4.png": "/static/media/E4.a0b1b63c0963b81fccf3.png",
+    "static/media/sicilian.png": "/static/media/sicilian.66d33552a4df04eaa653.png",
+    "static/media/Caro.png": "/static/media/Caro.94bf60cb81972f3abbff.png",
+    "static/media/svg3.svg": "/static/media/svg3.50b627ff2afd06ea8f3c1c04371ebe12.svg",
+    "index.html": "/index.html",
+    "main.96659679.css.map": "/static/css/main.96659679.css.map",
+    "main.fc44cbc9.js.map": "/static/js/main.fc44cbc9.js.map",
+    "787.cc2fe5be.chunk.js.map": "/static/js/787.cc2fe5be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96659679.css",
-    "static/js/main.b53fca40.js"
+    "static/js/main.fc44cbc9.js"
   ]
 }
