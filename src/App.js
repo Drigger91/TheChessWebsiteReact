@@ -11,6 +11,7 @@ import Bootcampinter from "./content-pages/interBootcamp";
 import Openings from "./content-pages/openings";
 import Accordian from "./components/Accordian";
 import SignIn from "./components/SignIn";
+import Error404 from "./content-pages/error404";
 
 function App() {
   useEffect(() => {
@@ -29,6 +30,7 @@ function App() {
         ></Route>
         <Route path="/signin" element={<SignIn />}></Route>
         <Route path="/openings" element={<Openings />}></Route>
+        <Route path="*" element={<Error404/>}></Route>
       </Routes>
       <Footer />
     </div>
