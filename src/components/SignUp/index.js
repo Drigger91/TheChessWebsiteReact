@@ -46,7 +46,6 @@ const handleLogin = (e)=>{
             window.alert("Passwords should match");
             return;
         }
-        
     }
     console.log(User)
 }
