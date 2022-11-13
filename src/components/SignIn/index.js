@@ -46,10 +46,10 @@ const SignIn = () => {
             <FormLabel htmlFor="email">Email</FormLabel>
             <FormInput type="email" name='email'className='form-control' value={User.email} onChange={handleChange} placeholder='abc@example.com' id='email' aria-describedby='emailHelp' required />
             <FormLabel htmlFor="password">Password</FormLabel>
-            <FormInput type="password" name='password' className='form-control' value={User.password} onChange={handleChange} id='password'aria-describedby='passwordHelp' required/>
+            <FormInput type="password" name='password' className='form-control' value={User.password} onChange={handleChange} id='password' aria-describedby='passwordHelp' required/>
             <FormButton type="submit" onClick={handleLogIn}>Log In</FormButton>
             <br/>
-            <SignUpMessage>Don't have an account , <Link className="signupLink" to="/signup" element={<SignUp/>}>SignUp here!</Link></SignUpMessage>
+            <SignUpMessage>Don't have an account , <Link className="signupLink" to="/signup">SignUp here!</Link></SignUpMessage>
           </Form>
         </FormContent>
       </FormWrap>

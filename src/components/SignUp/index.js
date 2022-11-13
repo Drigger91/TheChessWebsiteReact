@@ -1,5 +1,6 @@
 import React , {useState} from 'react'
 import { Link } from "react-router-dom";
+import Bootcampbeginner from '../../content-pages/beginnerBootcamp';
 import SignIn from "../SignIn";
 import {
   FormButton,
@@ -13,7 +14,8 @@ import {
   Icon,
   SignUpMessage
 } from "../SignIn/SignInElements";
-const SignUp = () => {
+function SignUp() {
+    const [state, setstate] = useState(true);
     const [User, setUser] = useState({
         name : '' , email : '' , password : '',cnfPass : ''
       })
@@ -67,10 +69,10 @@ const handleLogin = (e)=>{
           {(User.password != User.cnfPass) ? User.cnfPass.length > 0 ? <h6 className='pass'>Passwords don't match </h6> : <h1></h1> : <h1></h1> }  <br/>
           <FormButton type="submit" onClick={handleLogin}>Sign Up </FormButton>
           <br/>
-          <SignUpMessage>Already have an account , <Link className="signupLink" to="/signin" element={<SignIn/>}>Login here!</Link></SignUpMessage>
+          <SignUpMessage>Already have an account , <Link className="signupLink" to="/signin" >Login here!</Link></SignUpMessage>
         </Form>
       </FormContent>
-    </FormWrap>
+    </FormWrap> 
   </Container>
   )
 }
