@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link , useNavigate} from "react-router-dom";
 import SignUp from "../SignUp";
 import {
   FormButton,
@@ -15,6 +15,7 @@ import {
 } from "./SignInElements";
 
 const SignIn = () => {
+  const navigate = useNavigate();
   const [User,setUser] = useState({email : "", password : ""});
   let key,value;
   const handleChange = (e)=>{
@@ -35,6 +36,8 @@ const SignIn = () => {
       return;
     }
     console.log(User);
+    //api call goes here
+    navigate("/");
   }
   return (
     <Container>
