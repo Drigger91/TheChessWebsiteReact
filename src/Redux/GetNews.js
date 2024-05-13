@@ -1,11 +1,10 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/dist/query/react";
 
-const NewsHeaders = {
-  "x-bingapis-sdk": "true",
-  "x-rapidapi-host": "bing-news-search1.p.rapidapi.com",
-  "x-rapidapi-key": "29748c5ecamshed47e3e3f6ef6ccp1cd272jsn499a5dedc5b6",
-};
-const baseUrl = "https://bing-news-search1.p.rapidapi.com";
+const NewsHeaders = { 
+  'X-RapidAPI-Host': 'google-news-api1.p.rapidapi.com', 
+  'X-RapidAPI-Key': '29748c5ecamshed47e3e3f6ef6ccp1cd272jsn499a5dedc5b6'
+}
+const baseUrl = "https://google-news-api1.p.rapidapi.com";
 const createRequest = (url) => ({ url, headers: NewsHeaders });
 export const newsApi = createApi({
     reducerPath: "newsApi",
@@ -14,7 +13,7 @@ export const newsApi = createApi({
       getNews: builder.query({
         query: ({ newsCategory, count }) =>
           createRequest(
-            `/news/search?q=${newsCategory}&safeSearch=Off&textFormat=Raw&freshness=Day&count=${count}`
+            `/search?language=EN&q=chess&limit=15`
           ),
       }),
     }),

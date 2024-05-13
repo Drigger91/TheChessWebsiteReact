@@ -21,11 +21,11 @@ const News = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const { data } = useGetNewsQuery({
+  const data = useGetNewsQuery({
     newsCategory: "Chess",
     count: 15,
   });
-  // console.log(data);
+   console.log(data);
   if (!data?.value) {
     return (
       <>
